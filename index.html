@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sorting Hat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <div class="jumbotron mt-3">
+        <h1 class="display-6">Welcome to Hogwarts School of Witchcraft and Wizardry!</h1>
+        <p class="lead">This is the magical sorting hat, Students are analyzed by their personality, and then sorted into houses accordingly. sorting hat app!</p>
+        <button type="button" id="formButton" class="btn btn-primary">Let's start sorting!</button>
+    </div>
+    <div id="form" class="card border-dark d-none">
+        <h4 class="ml-3 mt-2">Enter First Year's Name</h4>
+        <form class="form-inline justify-content-center">
+            <div class="form-group mb-2">
+                <p>Student:</p>
+            </div>
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="inputName" class="sr-only">Your Name</label>
+                <input type="text" class="form" id="inputName" placeholder="Harry Potter">
+            </div>
+            <button type="submit" id="sortButton" class="sort btn border-dark btn-light ">Ask the hat!</button>
+        </form>
+    </div>
+
+    <div id="house-cards" class="d-flex flex-wrap"></div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
